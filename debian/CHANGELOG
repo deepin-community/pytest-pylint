@@ -1,0 +1,1661 @@
+commit 9cd8e51c0dcc51e1454b82c8fb0de0e1de16562c
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Nov 8 23:55:32 2020 -0700
+
+    Upreved version
+
+commit 78d6df495fc5876c531e3ff4a50e84e570716e94
+Merge: 03c34da c95d3f1
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Nov 8 23:47:31 2020 -0700
+
+    Merge pull request #146 from carsongee/rc/0.18.0
+    
+    Released 0.18.0
+
+commit c95d3f1da37ae2190f1785330e704d2a59b5a837
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Nov 8 21:51:59 2020 -0700
+
+    Released 0.18.0
+
+commit 13f301160190247017ac0bf8c276f0a09215af3e
+Merge: 0928cc7 ea60707
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Nov 8 23:28:24 2020 -0700
+
+    Merge pull request #149 from carsongee/bugfix/invalidate_cache_with_config_change
+    
+    Added cache invalidation when pylint configuration changes
+
+commit ea60707511400643874fb1ddf2436bc19c2c92bb
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Nov 8 23:02:00 2020 -0700
+
+    Added cache invalidation when pylint configuration changes
+    
+    Closes #139
+
+commit 0928cc7eb46b87782bb0bc557a827973bcf62fe6
+Merge: a442b8a 9d9a627
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Nov 8 23:04:11 2020 -0700
+
+    Merge pull request #148 from carsongee/bugfix/handle_no_reports_dir
+    
+    Added support for creating folders with report output
+
+commit a442b8ab13822766c9f0f7b48b2925d3b76a3523
+Merge: fa258b2 b97aad3
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Nov 8 22:22:07 2020 -0700
+
+    Merge pull request #147 from carsongee/bugfix/ignore_patterns
+    
+    Correct issue with empty pylint ignore_patterns configuration
+
+commit 9d9a627ea2d8f94dc9712f888136d6c0c93f09f5
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Nov 8 22:20:31 2020 -0700
+
+    Added support for creating folders with report output
+    
+    Closes #138
+
+commit b97aad3145f85a03bb7b0d5d6de016fa19ec2141
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Nov 8 22:06:59 2020 -0700
+
+    Correct issue with empty pylint ignore_patterns configuration
+    
+    Closes #137
+
+commit fa258b2b92c028f2e4b74762dd3d7a92bbd96104
+Merge: ba82ca4 de89e1f
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Nov 8 21:46:44 2020 -0700
+
+    Merge pull request #145 from carsongee/bugfix/fix_master
+    
+    Fixed master and removed redundant item path
+
+commit de89e1fbd444b9c3af57f839aee61b2555a8f1d6
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Nov 8 21:08:55 2020 -0700
+
+    Updated travis to deprecate Python 3.5
+
+commit aee8d0ed1a0a33423c5ffbf9f3671ea267d8938c
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Nov 8 21:06:29 2020 -0700
+
+    Corrected pytest master
+
+commit c7d1a849ba29488c970e9bd7a9fa23b7e6d2147c
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Nov 8 20:47:37 2020 -0700
+
+    Fixed master and removed redundant item path
+
+commit ba82ca4e6d4ce449bb7827ac593167938d608451
+Merge: f5783fc 4e7f067
+Author: Carson Gee <x@carsongee.com>
+Date:   Thu Oct 1 17:29:47 2020 -0600
+
+    Merge pull request #141 from sbraz/tests
+    
+    Include tests in source distributions
+
+commit 4e7f06701ca06697a22a029db9857fa2fdf7c033
+Author: Louis Sautier <sautier.louis@gmail.com>
+Date:   Fri Oct 2 00:43:32 2020 +0200
+
+    Include tests in source distributions
+
+commit f5783fcee9fb0016cf54bffb0a6c0fb57605f87f
+Merge: ddb3549 1801d3e
+Author: Carson Gee <x@carsongee.com>
+Date:   Tue May 5 10:28:37 2020 -0700
+
+    Merge pull request #136 from carsongee/feature/fix_coverage_travis
+    
+    Fixed coverage not running in travis
+
+commit 1801d3e21b95e38df5514abf186190ce39200260
+Author: Carson Gee <x@carsongee.com>
+Date:   Tue May 5 11:12:08 2020 -0600
+
+    Fixed coverage not running in travis
+
+commit ddb3549a9cfacbbdf2194986715ae209d9300043
+Merge: ebfdea6 03c34da
+Author: Carson Gee <x@carsongee.com>
+Date:   Tue May 5 09:22:41 2020 -0700
+
+    Merge pull request #135 from carsongee/release
+    
+    Release 0.17.0
+
+commit 03c34dabf60e92e7368026efa729766da518a678
+Merge: f07d894 d4d2158
+Author: Carson Gee <x@carsongee.com>
+Date:   Tue May 5 09:06:02 2020 -0700
+
+    Merge pull request #134 from carsongee/rc/0.17.0
+    
+    Released 0.17.0
+
+commit d4d2158e77093a73004ae66690aebd5d371afe35
+Merge: 5a0bfc5 f07d894
+Author: Carson Gee <x@carsongee.com>
+Date:   Tue May 5 08:52:01 2020 -0700
+
+    Merge branch 'release' into rc/0.17.0
+
+commit 5a0bfc5c703494c9afb797a12a8d6c8ba2cc12e6
+Author: Carson Gee <x@carsongee.com>
+Date:   Tue May 5 08:58:18 2020 -0600
+
+    Removed parallelism for tox
+
+commit 89e1331191243e62518d6b9b05bad1153646a7ca
+Author: Carson Gee <x@carsongee.com>
+Date:   Tue May 5 08:39:56 2020 -0600
+
+    Fix tests and code across various dependencies
+
+commit 459c1d3dc9d2f374bba344b8c402b8ad7462145a
+Author: Carson Gee <x@carsongee.com>
+Date:   Tue May 5 07:42:20 2020 -0600
+
+    Released 0.17.0
+
+commit ebfdea6ebf460c96c528514d09f9f76de12fd415
+Author: Sha <wangsha@users.noreply.github.com>
+Date:   Tue May 5 20:22:41 2020 +0800
+
+    pylint 2.5.1 contains breaking changes. rename do_exit => exit (#132)
+    
+    * Update plugin.py
+    
+    * Update setup.py
+    
+    * Update setup.py
+    
+    pylint 2.5.1 contain breaking changes.
+
+commit d0828ed5a81797bf177854a9894a0a51a509a6d9
+Author: Michael <michael-k@users.noreply.github.com>
+Date:   Tue May 5 12:21:53 2020 +0000
+
+    Fix tests (#131)
+
+commit f07d8949176bd1c3e533e348c10f4724641de144
+Merge: 48a3f29 e064e5e
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Apr 26 09:19:21 2020 -0700
+
+    Merge pull request #129 from carsongee/rc/0.16.1
+    
+    Released 0.16.1
+
+commit e064e5ef4228f23a5daef9fa988eb95b4ee299e8
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Apr 26 10:08:45 2020 -0600
+
+    Released 0.16.1
+
+commit 51d55311f0f45bb8d0535dc962377e285e9c7dd7
+Merge: 25cc681 c443320
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Apr 26 09:00:08 2020 -0700
+
+    Merge pull request #127 from dineshtrivedi/fixing_doc_broken_link_and_dev_env
+    
+    Fixing broken link in doc + Suggestion for development environment
+
+commit 25cc681424a22b701e680dce96bdbdf5eae6af3f
+Merge: 3afe64e aa7c1fc
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Apr 26 08:55:15 2020 -0700
+
+    Merge pull request #128 from yanqd0/patch-1
+    
+    Fix versions of pytest and pylint in install_requires
+
+commit aa7c1fce28cbfcc8face1abeeeaa1ee6d8421640
+Author: Yan QiDong <yanqd0@outlook.com>
+Date:   Sun Apr 26 20:07:40 2020 +0800
+
+    Fix install versions of pytest and pylint
+
+commit c443320705432323cbabc1c07c52b83481779166
+Author: Dinesh Trivedi <dinesh.dart@gmail.com>
+Date:   Sat Apr 25 21:36:02 2020 +0200
+
+    Callouts done
+
+commit c1e91c19b285e89844cf73b49fc5e9bb52737120
+Author: Dinesh Trivedi <dinesh.dart@gmail.com>
+Date:   Sat Apr 25 21:00:11 2020 +0200
+
+    Fixing broken link in doc + Suggestion for development environment
+
+commit 3afe64ee7d66acf7ba2b6a81efdeff04d94fc42e
+Merge: 68929f6 48a3f29
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Apr 25 10:57:43 2020 -0700
+
+    Merge pull request #125 from carsongee/release
+    
+    Release
+
+commit 48a3f29c53e26edf727bc31048581464b5ee6fad
+Merge: 3d03fd8 eea9f68
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Apr 25 10:52:30 2020 -0700
+
+    Merge pull request #124 from carsongee/rc/0.16.0
+    
+    Released 0.16.0
+
+commit eea9f6817dc47769f06630441337d3846d5a102d
+Merge: e13d5f3 3d03fd8
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Apr 25 10:49:19 2020 -0700
+
+    Merge branch 'release' into rc/0.16.0
+
+commit e13d5f36170d1435ff25a63f404d0deec395ab2f
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Apr 25 11:48:07 2020 -0600
+
+    Released 0.16.0
+
+commit 68929f6af40aa6b8e99ed944872a822360a0b164
+Merge: 4c50f11 ff1331c
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Apr 25 10:39:29 2020 -0700
+
+    Merge pull request #123 from carsongee/carsongee/121-review
+    
+    Carsongee/121 review
+
+commit ff1331c3d1917afb4acb8e4d5260482eaf8830fa
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Apr 25 11:30:01 2020 -0600
+
+    Class properties with typehints not supported in Python3.5
+
+commit 7966c11bd06ea1d72b4c5b6ff608f57f264613c6
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Apr 25 11:20:19 2020 -0600
+
+    Corrected node names
+    - Moved large doc string to document
+    - Minor formatting
+    - Closes #121
+
+commit 0a63e3b92a52d8d0b96d73c35f766714842bc1af
+Author: Dinesh Trivedi <dinesh.dart@gmail.com>
+Date:   Sat Apr 11 11:04:52 2020 +0200
+
+    Fixing typos and improving plugin explanation
+
+commit 3ca4aeec34e0dbdbcae391e9dd67e1ffc960321e
+Author: Dinesh Trivedi <dinesh.dart@gmail.com>
+Date:   Fri Apr 10 19:02:35 2020 +0200
+
+    [#120] - Fixing deprecation warning + removing mock dependency - Swapping pytest-pep8 for pytest-flake8
+
+commit 4c50f1166b3c931e22ec1a7d23a8510d72f418f7
+Author: Scott Stanton <scott.stanton@veeva.com>
+Date:   Fri Mar 20 13:17:59 2020 -0700
+
+    fix: #117 use rel_path instead of name for the mtimes lookup to avoid collisions (#118)
+
+commit b80595c7d03538a983b5722bc49a6e703a3de899
+Author: Carson Gee <x@carsongee.com>
+Date:   Thu Mar 19 23:23:28 2020 -0700
+
+    Due to strange tox and latest pylint version interaction, moving back… (#119)
+    
+    * Due to strange tox and latest pylint version interaction, moving back to released version
+    
+    * Test cleanup
+
+commit c3c96087d08d6689b66789567e87b0327fc6f3fc
+Author: Carson Gee <x@carsongee.com>
+Date:   Tue Mar 17 18:16:16 2020 -0700
+
+    Release 0.15.1 (#116)
+    
+    * Release 0.15.0 (#110)
+    
+    * Implemented option to output Pylint results to a reports file. (#100)
+    
+    * Implemented option to output Pylint results to a reports file.
+    
+    * Removed comment left in code.
+    
+    * Fixed string for Python 2.x support.
+    
+    * Fixed parameters differing in `PyLintItem.repr_failure` method.
+    
+    * Fixed file path in unit test.
+    
+    * Fixed unused argument `style` in `PylintItem.repr_failure`.
+    
+    * Fixed Python 2.7 Pylint error.
+    
+    * Improved `PyLintItem.runtest` function.
+    
+    * Disabling Pylint check due to Python 2 multiple inheritance differences.
+    
+    * Added support for newer docstring warning (#103)
+    
+    * Add support for Python 3.8 (#104)
+    
+    * Require Python 3.5+ (#106)
+    
+    This also bumps pytest's and pylint's minimal version to the first one
+    with Python-3-only support.
+    
+    See also https://docs.pytest.org/en/latest/py27-py34-deprecation.html
+    
+    * Add ::PYLINT in pytest verbose mode (#101)
+    
+    * Dismiss a PytestUnknownMarkWarning
+    
+    * Add ::PYLINT in pytest verbose mode
+    
+    * Refactor and release notes (#109)
+    
+    * Removed passing pylint ignores (#111)
+    
+    Closes #105
+    
+    Co-authored-by: José L. Patiño <jose.lpa@gmail.com>
+    Co-authored-by: Michael <michael-k@users.noreply.github.com>
+    Co-authored-by: Yan QiDong <yanqd0@outlook.com>
+    
+    * Corrected pypi picky RST rendering
+    
+    * Corrected issue with disable mode (#115)
+    
+    Closes #114
+    
+    Co-authored-by: José L. Patiño <jose.lpa@gmail.com>
+    Co-authored-by: Michael <michael-k@users.noreply.github.com>
+    Co-authored-by: Yan QiDong <yanqd0@outlook.com>
+
+commit 3d03fd8244aa9f668c7e4d7b708280cccdfa84cf
+Author: Carson Gee <x@carsongee.com>
+Date:   Wed Mar 4 18:11:55 2020 -0700
+
+    Corrected issue with disable mode (#115)
+    
+    Closes #114
+
+commit d56782044868346b1aed922c47ac084a7b521bf3
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Feb 22 16:19:47 2020 -0700
+
+    Cleanup PR #99 (#113)
+    
+    * Add file and pattern ignore to cmd line
+    
+    Add --pylint-ignore and --pylint-ignore-patterns as command line
+    arguments.
+    
+    These should take priority over the same option specified in the rcfile.
+    
+    * Passed ignore configurations into lint.Run args
+    
+    Co-authored-by: Fred Thomsen <me@fredthomsen.net>
+
+commit 965460c3599efb6c312eaecd5fb1fe1229f86199
+Author: Michael <michael-k@users.noreply.github.com>
+Date:   Mon Feb 10 14:11:44 2020 +0000
+
+    Add support for pyproject.toml as pylint config file (#107)
+    
+    Thanks! 💯
+
+commit f756f4cb7e553233f2f4e3767e285c42ba9729a0
+Author: Carson Gee <x@carsongee.com>
+Date:   Mon Feb 10 00:01:30 2020 -0700
+
+    Release (#112)
+    
+    * Release 0.15.0 (#110)
+    
+    * Implemented option to output Pylint results to a reports file. (#100)
+    
+    * Implemented option to output Pylint results to a reports file.
+    
+    * Removed comment left in code.
+    
+    * Fixed string for Python 2.x support.
+    
+    * Fixed parameters differing in `PyLintItem.repr_failure` method.
+    
+    * Fixed file path in unit test.
+    
+    * Fixed unused argument `style` in `PylintItem.repr_failure`.
+    
+    * Fixed Python 2.7 Pylint error.
+    
+    * Improved `PyLintItem.runtest` function.
+    
+    * Disabling Pylint check due to Python 2 multiple inheritance differences.
+    
+    * Added support for newer docstring warning (#103)
+    
+    * Add support for Python 3.8 (#104)
+    
+    * Require Python 3.5+ (#106)
+    
+    This also bumps pytest's and pylint's minimal version to the first one
+    with Python-3-only support.
+    
+    See also https://docs.pytest.org/en/latest/py27-py34-deprecation.html
+    
+    * Add ::PYLINT in pytest verbose mode (#101)
+    
+    * Dismiss a PytestUnknownMarkWarning
+    
+    * Add ::PYLINT in pytest verbose mode
+    
+    * Refactor and release notes (#109)
+    
+    * Removed passing pylint ignores (#111)
+    
+    Closes #105
+    
+    Co-authored-by: José L. Patiño <jose.lpa@gmail.com>
+    Co-authored-by: Michael <michael-k@users.noreply.github.com>
+    Co-authored-by: Yan QiDong <yanqd0@outlook.com>
+    
+    * Corrected pypi picky RST rendering
+    
+    Co-authored-by: José L. Patiño <jose.lpa@gmail.com>
+    Co-authored-by: Michael <michael-k@users.noreply.github.com>
+    Co-authored-by: Yan QiDong <yanqd0@outlook.com>
+
+commit a55be68098b768625ab743fede5d2780357eef1a
+Merge: 3361d73 1d338a4
+Author: Carson Gee <x@carsongee.com>
+Date:   Mon Feb 10 00:01:11 2020 -0700
+
+    Merge branch 'master' into release
+
+commit 3361d732f8b9fd418abfecc59f079d3bf5d622e5
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Feb 9 23:58:11 2020 -0700
+
+    Corrected pypi picky RST rendering
+
+commit 4d28b81951968a4c53adea5ac7f00d4d83595824
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Feb 9 23:42:37 2020 -0700
+
+    Release 0.15.0 (#110)
+    
+    * Implemented option to output Pylint results to a reports file. (#100)
+    
+    * Implemented option to output Pylint results to a reports file.
+    
+    * Removed comment left in code.
+    
+    * Fixed string for Python 2.x support.
+    
+    * Fixed parameters differing in `PyLintItem.repr_failure` method.
+    
+    * Fixed file path in unit test.
+    
+    * Fixed unused argument `style` in `PylintItem.repr_failure`.
+    
+    * Fixed Python 2.7 Pylint error.
+    
+    * Improved `PyLintItem.runtest` function.
+    
+    * Disabling Pylint check due to Python 2 multiple inheritance differences.
+    
+    * Added support for newer docstring warning (#103)
+    
+    * Add support for Python 3.8 (#104)
+    
+    * Require Python 3.5+ (#106)
+    
+    This also bumps pytest's and pylint's minimal version to the first one
+    with Python-3-only support.
+    
+    See also https://docs.pytest.org/en/latest/py27-py34-deprecation.html
+    
+    * Add ::PYLINT in pytest verbose mode (#101)
+    
+    * Dismiss a PytestUnknownMarkWarning
+    
+    * Add ::PYLINT in pytest verbose mode
+    
+    * Refactor and release notes (#109)
+    
+    * Removed passing pylint ignores (#111)
+    
+    Closes #105
+    
+    Co-authored-by: José L. Patiño <jose.lpa@gmail.com>
+    Co-authored-by: Michael <michael-k@users.noreply.github.com>
+    Co-authored-by: Yan QiDong <yanqd0@outlook.com>
+
+commit 1d338a4a98f11b112e2fd2f6ec3b22f05884c204
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Feb 9 23:37:47 2020 -0700
+
+    Removed passing pylint ignores (#111)
+    
+    Closes #105
+
+commit 3790ec0d385c9348217b5912b3a7c7e93d91b7ee
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Feb 9 23:19:39 2020 -0700
+
+    Refactor and release notes (#109)
+
+commit 00f190203f9d09efe1c1b638f6d31acc41cec1ab
+Author: Yan QiDong <yanqd0@outlook.com>
+Date:   Mon Feb 10 13:43:54 2020 +0800
+
+    Add ::PYLINT in pytest verbose mode (#101)
+    
+    * Dismiss a PytestUnknownMarkWarning
+    
+    * Add ::PYLINT in pytest verbose mode
+
+commit 63eddc7fbba52d188678b0c7b53dbf422fbb8aa0
+Author: Michael <michael-k@users.noreply.github.com>
+Date:   Thu Dec 5 16:39:21 2019 +0000
+
+    Require Python 3.5+ (#106)
+    
+    This also bumps pytest's and pylint's minimal version to the first one
+    with Python-3-only support.
+    
+    See also https://docs.pytest.org/en/latest/py27-py34-deprecation.html
+
+commit 97bda02e95b5a0e582a0c8674f3843ef66ecb7f7
+Author: Michael <michael-k@users.noreply.github.com>
+Date:   Wed Nov 6 22:22:18 2019 +0000
+
+    Add support for Python 3.8 (#104)
+
+commit 1e8512586b8d1ef6ad35e5860ced38e14b87f1f1
+Author: Carson Gee <x@carsongee.com>
+Date:   Mon Oct 7 14:52:49 2019 -0400
+
+    Added support for newer docstring warning (#103)
+
+commit d273e33fedc0e0548055886882d20c9dea753ebb
+Author: José L. Patiño <jose.lpa@gmail.com>
+Date:   Mon Oct 7 18:23:17 2019 +0100
+
+    Implemented option to output Pylint results to a reports file. (#100)
+    
+    * Implemented option to output Pylint results to a reports file.
+    
+    * Removed comment left in code.
+    
+    * Fixed string for Python 2.x support.
+    
+    * Fixed parameters differing in `PyLintItem.repr_failure` method.
+    
+    * Fixed file path in unit test.
+    
+    * Fixed unused argument `style` in `PylintItem.repr_failure`.
+    
+    * Fixed Python 2.7 Pylint error.
+    
+    * Improved `PyLintItem.runtest` function.
+    
+    * Disabling Pylint check due to Python 2 multiple inheritance differences.
+
+commit b98c1bbcd385b96232a70604be5c80dfcdd89421
+Merge: 96c9063 4420bca
+Author: Carson Gee <x@carsongee.com>
+Date:   Tue Jul 16 16:31:11 2019 -0400
+
+    Merge pull request #98 from carsongee/release
+    
+    Release
+
+commit 4420bcab1fd6026e11c47d95e2012e7e1cf9a9fe
+Merge: cbda42b cd81c2c
+Author: Carson Gee <x@carsongee.com>
+Date:   Tue Jul 16 16:28:26 2019 -0400
+
+    Merge pull request #97 from carsongee/rc/0.14.1
+    
+    0.14.1
+
+commit cd81c2cbc4738a01937c9699fc78a05ba834175f
+Author: Carson Gee <x@carsongee.com>
+Date:   Tue Jul 16 14:21:24 2019 -0600
+
+    Released 0.14.1
+
+commit 96c9063749dd2c1cfc33029f43eb012933b743fe
+Merge: 14994e3 9a918bd
+Author: Carson Gee <x@carsongee.com>
+Date:   Tue Jul 16 16:17:31 2019 -0400
+
+    Merge pull request #96 from yanqd0/master
+    
+    Fix the crash when `-p no:cacheprovider` is given.
+
+commit 9a918bd45f1ed02f1478844563784094a951380c
+Author: Yan QiDong <yanqd0@outlook.com>
+Date:   Sun Jun 16 20:37:57 2019 +0800
+
+    Check the cacheprovider of pytest, to fix #91
+
+commit 706e3fb8320bc3ba62d7939932ed5aa2ea7b3abd
+Author: Yan QiDong <yanqd0@outlook.com>
+Date:   Sun Jun 16 20:36:50 2019 +0800
+
+    Add a regression test for the issue #91
+
+commit 14994e3fee0b7f20858d027505b23d25aaf10abd
+Merge: 9bfe8be cbda42b
+Author: Carson Gee <x@carsongee.com>
+Date:   Tue Jan 15 08:16:06 2019 -0500
+
+    Merge pull request #87 from carsongee/release
+    
+    Release
+
+commit cbda42b2ca6bca25810fe6e3e10a27a756ee4348
+Merge: 2cb3191 78ea69c
+Author: Carson Gee <x@carsongee.com>
+Date:   Tue Jan 15 08:10:38 2019 -0500
+
+    Merge pull request #86 from carsongee/rc/0.14.0
+    
+    Rc/0.14.0
+
+commit 78ea69cacb65b78f2951e64616b6bcfee32066bf
+Author: Carson Gee <x@carsongee.com>
+Date:   Tue Jan 15 07:58:43 2019 -0500
+
+    Released 0.14.0
+
+commit 9bfe8be312939083e57319f5e865da69419e7a9d
+Merge: a319ad4 2163a8f
+Author: Carson Gee <x@carsongee.com>
+Date:   Tue Jan 15 07:45:47 2019 -0500
+
+    Merge pull request #85 from carsongee/feature/cleanup
+    
+    Pylint cleanup
+
+commit 2163a8f809aa4a7ba6dcdfea8ec0c2f740dbd757
+Author: Carson Gee <x@carsongee.com>
+Date:   Tue Jan 15 07:26:01 2019 -0500
+
+    Pylint cleanup
+
+commit a319ad47a7eb4aef29c7682b130cf61f1dbb8872
+Merge: 875d155 e48f4d9
+Author: Carson Gee <x@carsongee.com>
+Date:   Mon Jan 14 22:04:12 2019 -0500
+
+    Merge pull request #83 from yanqd0/patch
+    
+    Skip unchanged files which is checked
+
+commit e48f4d972bf1ae83ede16898e0b091ecf04dea97
+Author: Yan QiDong <yanqd0@outlook.com>
+Date:   Fri Jan 11 22:29:09 2019 +0800
+
+    Skip really in collection time
+
+commit 2a01abde2b4dd97143a5a2f39f6922bc0470a994
+Author: Yan QiDong <yanqd0@outlook.com>
+Date:   Sat Jan 5 21:50:42 2019 +0800
+
+    Disable a creepy pylint error
+
+commit f1f964bf060941cd4bc3f67b866ec128840e1f3e
+Author: Yan QiDong <yanqd0@outlook.com>
+Date:   Sat Jan 5 20:52:12 2019 +0800
+
+    Fix 3 errors in python2.7
+
+commit 4ebe17141cab73e855f3e14a3e3f20ebbf5d28d5
+Author: Yan QiDong <yanqd0@outlook.com>
+Date:   Sat Jan 5 17:36:03 2019 +0800
+
+    Add a test case to ensure cache and skipped
+
+commit 7e275bf75504e166d0524f8a41d007dc598774df
+Author: Yan QiDong <yanqd0@outlook.com>
+Date:   Sat Jan 5 16:31:38 2019 +0800
+
+    Add a cache to skip checked unchanged files
+
+commit 875d1556344db28b723fa9075aa35e984c539d89
+Merge: ea48694 f2e120f
+Author: Carson Gee <x@carsongee.com>
+Date:   Tue Jan 8 11:00:20 2019 -0500
+
+    Merge pull request #82 from khokhlin/feature/pylint-ignore-patterns
+    
+    Add pylint-ignore-patterns
+
+commit f2e120f6458f11c3810302452b6fe80e41c278bc
+Author: Andrey Khokhlin <khokhlin@gmail.com>
+Date:   Wed Dec 19 21:13:55 2018 +0300
+
+    Fix test name for 2.7
+
+commit 10eb449ad19db6a12e482ed35bef77bf0f82767e
+Author: Andrey Khokhlin <khokhlin@gmail.com>
+Date:   Wed Dec 19 21:08:08 2018 +0300
+
+    Fix line length
+
+commit a48a79991cfecccaaa28437a188fd86204aec31d
+Author: Andrey Khokhlin <khokhlin@gmail.com>
+Date:   Wed Dec 19 21:00:33 2018 +0300
+
+    Add pylint-ignore-patterns
+
+commit ea486941666df17bd14dbfce8890a0edae974064
+Merge: 608ec04 2cb3191
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Nov 25 21:37:48 2018 -0500
+
+    Merge pull request #79 from carsongee/release
+    
+    Release
+
+commit 2cb31919366288591e2146c5a469787ec01b7bf3
+Merge: 33f0ae0 a93b59d
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Nov 25 21:31:58 2018 -0500
+
+    Merge pull request #78 from carsongee/rc/0.13.0
+    
+    Rc/0.13.0
+
+commit a93b59d8e39c5929fd3e5887f4eb5a8a240ab710
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Nov 25 21:25:37 2018 -0500
+
+    Released 0.13.0
+
+commit 608ec048c5edc64858da46478755f962d9f928e4
+Merge: 7ea44a8 65e46d0
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Nov 25 21:11:34 2018 -0500
+
+    Merge pull request #77 from carsongee/bugfix/handle_new_pylint_warnings
+    
+    Corrected new pylint issues
+
+commit 65e46d0fdf270be315cce0d160ed4b061f378df7
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Nov 25 20:59:21 2018 -0500
+
+    Corrected new pylint issues
+
+commit 7ea44a8825e55dff3e1fd09bf1c135a54bd4cdbb
+Merge: 1e5e0ab 228f867
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Nov 25 17:59:48 2018 -0500
+
+    Merge pull request #73 from heoga/badge
+    
+    Fix badge on README
+
+commit 1e5e0abbb917db92a8688c5da1b3994288b77583
+Merge: b3f10af 3807625
+Author: Carson Gee <x@carsongee.com>
+Date:   Mon Oct 1 15:51:19 2018 -0400
+
+    Merge pull request #72 from heoga/issue_71
+    
+    Fix issue #71
+
+commit b3f10af390e9974a43b6004e3a604e90792502a2
+Merge: a5e9784 82f513a
+Author: Carson Gee <x@carsongee.com>
+Date:   Mon Oct 1 13:35:59 2018 -0400
+
+    Merge pull request #76 from carsongee/feature/3.7
+    
+    3.7 Support and Correcting 2.7 Tests
+
+commit 82f513a7bbab8d07dcdc7d870c258d949afb37e6
+Author: Carson Gee <x@carsongee.com>
+Date:   Mon Oct 1 13:29:54 2018 -0400
+
+    Corrected travis syntax issue
+
+commit 787034b884dafabdba873183b05cfbfb0eb39a03
+Author: Carson Gee <x@carsongee.com>
+Date:   Mon Oct 1 13:26:53 2018 -0400
+
+    Made failure assertion more specific in test
+
+commit 228f867b7009143d753be971a62ba2e82c755092
+Author: Karl Odie <karlodie@gmail.com>
+Date:   Sun Sep 16 13:41:48 2018 +0100
+
+    Fix badge on README
+
+commit 3807625e16b3c1bd2d5392a9f093a9951e397fa1
+Author: Karl Odie <karlodie@gmail.com>
+Date:   Sun Sep 16 13:08:40 2018 +0100
+
+    Alter include_file to stop matching partial matches
+
+commit dffe6cd5fb4e6d8a6c7cfcbaa3cae03b182e37c4
+Author: Karl Odie <karlodie@gmail.com>
+Date:   Sun Sep 16 13:08:00 2018 +0100
+
+    Add unit test
+
+commit 667d1c17037cfbf8f0c99259c7a5c83395d2ab62
+Author: Karl Odie <karlodie@gmail.com>
+Date:   Sun Sep 16 11:27:43 2018 +0100
+
+    Break into seperate function
+
+commit 87084d7f146a2e84f3c45e7660e393d78ed692bd
+Author: Carson Gee <x@carsongee.com>
+Date:   Mon Jul 30 14:51:33 2018 -0400
+
+    Added support for running `python setup.py test` and Python 3.7 testing
+
+commit a5e9784587c1b4c0ef00f518ce8b9cbe67f9c1e3
+Merge: ba3197b 33f0ae0
+Author: Carson Gee <x@carsongee.com>
+Date:   Tue Sep 4 11:56:34 2018 -0400
+
+    Merge pull request #68 from carsongee/release
+    
+    Release
+
+commit 33f0ae08fd0b1a6473ae1a582717d1c8ebaae0ea
+Merge: 678f0cf 262de67
+Author: Carson Gee <x@carsongee.com>
+Date:   Mon Sep 3 06:52:20 2018 -0400
+
+    Merge pull request #67 from carsongee/rc/0.12.3
+    
+    Released 0.12.3
+
+commit 262de67f3445683a94c9d7b29061e273e95a37b4
+Author: Carson Gee <x@carsongee.com>
+Date:   Mon Sep 3 06:43:52 2018 -0400
+
+    Released 0.12.3
+
+commit ba3197bd3e694f7a7d08e5d3f2c39b4e89f299a2
+Merge: f3e72fb 678f0cf
+Author: Carson Gee <x@carsongee.com>
+Date:   Mon Sep 3 06:40:57 2018 -0400
+
+    Merge pull request #65 from carsongee/release
+    
+    Release
+
+commit f3e72fbb172a882efe05de99262497fe4807bd73
+Merge: 8dc8eab a85c024
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Sep 2 17:03:55 2018 -0400
+
+    Merge pull request #66 from jamur2/relpath
+    
+    Show full relative path to file under test
+
+commit a85c02472d82e215719f66810a7c8d3a050d95ab
+Author: Jackie Murphy <john.murphy@rallyhealth.com>
+Date:   Sun Sep 2 12:58:20 2018 -0400
+
+    Add unit test
+
+commit f03c264554cdab158203fd769ab8f38b54cb1584
+Author: Jackie Murphy <john.murphy@rallyhealth.com>
+Date:   Sat Sep 1 21:01:44 2018 -0400
+
+    Show full relative path to file under test
+
+commit 678f0cf58a281e588edf7a790531e54765132f6e
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Sep 1 17:58:39 2018 -0400
+
+    Corrected the setup version
+
+commit 15f58256cc8e3a947293233575b7c3451c6c6bfc
+Merge: cb65de8 2dc4a1a
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Sep 1 17:56:48 2018 -0400
+
+    Merge pull request #64 from carsongee/rc/0.12.2
+    
+    0.12.2
+
+commit 2dc4a1a1a37209599dfb3cd71a97e3eb61418507
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Sep 1 17:34:53 2018 -0400
+
+    0.12.2
+
+commit 8dc8eabb85725ec4e4c4a5d202b473952a5ac4f7
+Merge: 89f8e8a 7f30e91
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Sep 1 17:32:19 2018 -0400
+
+    Merge pull request #63 from carsongee/bugfix/recurse
+    
+    Correct path issue missed in #59
+
+commit 7f30e91d644bb640e73d3871b019cb0ba030bf70
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Sep 1 17:28:00 2018 -0400
+
+    Correct path issue missed in #59
+    
+    Resolves #62
+
+commit 89f8e8a6009deba60d8c37d32bb6822c82abe9a8
+Merge: ac4fd04 cb65de8
+Author: Carson Gee <x@carsongee.com>
+Date:   Thu Aug 2 07:30:01 2018 -0400
+
+    Merge pull request #61 from carsongee/release
+    
+    Release
+
+commit cb65de8d16ace0d77ace9a647955b6070522fa47
+Merge: 9d138ad d049d50
+Author: Carson Gee <x@carsongee.com>
+Date:   Thu Aug 2 07:15:09 2018 -0400
+
+    Merge pull request #60 from carsongee/rc/0.12.1
+    
+    Released 0.12.1
+
+commit d049d50e21428879425a0982245d317dafe23cde
+Author: Carson Gee <x@carsongee.com>
+Date:   Thu Aug 2 07:09:10 2018 -0400
+
+    Released 0.12.1
+
+commit ac4fd04903764ac78f461c8235b0b6f36188c83a
+Merge: 0484086 c938626
+Author: Carson Gee <x@carsongee.com>
+Date:   Thu Aug 2 07:06:33 2018 -0400
+
+    Merge pull request #59 from carsongee/feature/pytest-3.7.0-compat
+    
+    Corrected file collection to explicitly use the session
+
+commit c938626c4fde569c5b75b9a429a5c9bbad14ca4f
+Author: Carson Gee <x@carsongee.com>
+Date:   Thu Aug 2 06:59:23 2018 -0400
+
+    Corrected file collection to explicitly use the session
+    
+    Closes #57
+
+commit 048408641f41c33daf1a1473d95ae333081d1a65
+Merge: 88cc229 9d138ad
+Author: Carson Gee <x@carsongee.com>
+Date:   Mon Jul 30 08:03:01 2018 -0400
+
+    Merge pull request #55 from carsongee/release
+    
+    Release
+
+commit 9d138ad36c0e5bc065940d83caba16ee77450152
+Merge: 1ee3e18 7d80e0d
+Author: Carson Gee <x@carsongee.com>
+Date:   Mon Jul 30 07:49:04 2018 -0400
+
+    Merge pull request #54 from carsongee/rc/0.12.0
+    
+    0.12.0
+
+commit 7d80e0d266db5607fef38c6c20e9a213d1bd0f85
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Jul 29 22:21:05 2018 -0400
+
+    Released 0.12.0
+
+commit 88cc2293df1c8f9e60099fa0438ffbe0d005b50e
+Merge: 1ee3e18 e64cba8
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Jul 29 22:18:26 2018 -0400
+
+    Merge pull request #53 from jwkvam/verbose
+    
+    print "." for each module pylint analyzes
+
+commit e64cba80141be65c0b5625b8d033736d7e8aa6d9
+Author: Jacques Kvam <jwkvam@gmail.com>
+Date:   Tue Jul 24 17:44:06 2018 -0700
+
+    whoops another one :)
+
+commit 4917d66e3bcac7366925ce296584667c99f5da4a
+Author: Jacques Kvam <jwkvam@gmail.com>
+Date:   Tue Jul 24 17:39:43 2018 -0700
+
+    print "." for each module pylint analyzes
+    
+    Helpful for keeping programs alive that check stdout.
+
+commit 1ee3e189952b5fbc737be6b286f3fdef4f59fefa
+Merge: acaffc8 8b66601
+Author: Carson Gee <x@carsongee.com>
+Date:   Mon Jul 2 08:05:57 2018 -0400
+
+    Merge pull request #51 from carsongee/rc/0.11.0
+    
+    Released 0.11.0
+
+commit 8b66601e734da521e0ac93e47bda0e3adcf46c2e
+Author: Carson Gee <x@carsongee.com>
+Date:   Mon Jul 2 07:58:32 2018 -0400
+
+    Released 0.11.0
+
+commit acaffc8cb135e9c2272bc1d81050b18d4841dd13
+Merge: 2a7c793 553d0bc
+Author: Carson Gee <x@carsongee.com>
+Date:   Mon Jul 2 07:52:19 2018 -0400
+
+    Merge pull request #50 from carsongee/feature/disable_switch
+    
+    Added flag to temporarily disable pylint
+
+commit 553d0bc1fa6d42b2e75c4d644fd1bab23e164cd2
+Author: Carson Gee <x@carsongee.com>
+Date:   Mon Jul 2 07:33:05 2018 -0400
+
+    Added flag to temporarily disable pylint
+
+commit 2a7c793ac99dd45164c1f66791a12c78aaa67ae3
+Merge: 71f2211 18b8fa2
+Author: Carson Gee <x@carsongee.com>
+Date:   Mon Jul 2 07:26:52 2018 -0400
+
+    Merge pull request #49 from carsongee/release
+    
+    Release
+
+commit 18b8fa225dbfa0421f508a109c8c4bc8576bad3d
+Merge: fe275cb 39d2b94
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Jul 1 19:28:47 2018 -0400
+
+    Merge pull request #47 from carsongee/rc/0.10.0
+    
+    Rc/0.10.0
+
+commit 39d2b942a227208c02b99de68bd1cf761f944648
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Jul 1 15:53:45 2018 -0400
+
+    Release 0.10.0
+
+commit 71f2211fe396e894bca45b62ac4f378622b92b98
+Merge: fac777d fe275cb
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Jul 1 15:50:28 2018 -0400
+
+    Merge pull request #46 from carsongee/release
+    
+    Release
+
+commit fac777de99209420e9b2a411ef488425a9d355af
+Merge: cc5bbd5 af1e1aa
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Jul 1 15:49:19 2018 -0400
+
+    Merge pull request #45 from carsongee/feature/pylint2.x-compat
+    
+    Add exception handling for pylint 2.0 API changes
+
+commit af1e1aa11bb5edf626a6336a7081afc32439dbad
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Jul 1 15:44:28 2018 -0400
+
+    Add exception handling for pylint 2.0 API changes
+
+commit cc5bbd5b3b57267d8dfe8557f00160afd03bea69
+Merge: 7381a93 03bc82b
+Author: Carson Gee <x@carsongee.com>
+Date:   Tue May 22 16:24:38 2018 -0400
+
+    Merge pull request #42 from carsongee/feature/resolve_abstract
+    
+    Ignored unnecessary pylint check on pytest collector
+
+commit 03bc82b06dc0b27d17f5c6588a967afa6669c495
+Author: Carson Gee <x@carsongee.com>
+Date:   Tue May 22 14:19:17 2018 -0600
+
+    Ignored unnecessary pylint check on pytest collector
+    Closes #41
+
+commit fe275cb0477271120149b2ece55bcb82210f1a2f
+Merge: 992d7b0 4289d6f
+Author: Carson Gee <x@carsongee.com>
+Date:   Wed Feb 28 11:51:29 2018 -0500
+
+    Merge pull request #39 from carsongee/rc/0.9.0
+    
+    Rc/0.9.0
+
+commit 4289d6f250fee6d93a0d0f1f36cd4c94c1f4a7c5
+Author: Carson Gee <x@carsongee.com>
+Date:   Wed Feb 28 11:29:23 2018 -0500
+
+    Updated readme for new functionality
+
+commit 7381a938cd61deedde0a771c592449e71d3ac25e
+Merge: df624c6 5c529ff
+Author: Carson Gee <x@carsongee.com>
+Date:   Wed Feb 28 11:26:03 2018 -0500
+
+    Merge pull request #38 from noisecapella/master
+    
+    Pass through parameter for parallel jobs
+
+commit 5c529fff10cb69a3a2e8a9694bcdfebd30f90e10
+Author: George Schneeloch <gschneel@mit.edu>
+Date:   Fri Feb 23 12:58:21 2018 -0500
+
+    Pass through parameter for parallel jobs
+
+commit df624c6fda891c17c14659fca755771f9cab424f
+Author: Carson Gee <x@carsongee.com>
+Date:   Fri Feb 9 12:16:25 2018 -0500
+
+    Updated Badges
+
+commit 48c25b53dc5e1c7682081af096f5bd0c88c3a780
+Merge: 1641749 992d7b0
+Author: Carson Gee <x@carsongee.com>
+Date:   Fri Feb 2 00:55:50 2018 -0500
+
+    Merge pull request #35 from carsongee/release
+    
+    Release
+
+commit 992d7b061a573fe37ed12020c5b0fcf1f45c11e3
+Merge: 07518ba e7189b5
+Author: Carson Gee <x@carsongee.com>
+Date:   Thu Feb 1 21:38:59 2018 -0500
+
+    Merge pull request #34 from carsongee/rc/0.8.0
+    
+    Rc/0.8.0
+
+commit e7189b5f7db78a6b7a8a67fb70ca86117546f642
+Author: Carson Gee <x@carsongee.com>
+Date:   Thu Feb 1 18:55:59 2018 -0500
+
+    Released 0.8.0
+
+commit 1641749ae9e6967827554343f47c46093c7d0dd7
+Merge: fb37e04 4038d72
+Author: Carson Gee <x@carsongee.com>
+Date:   Thu Feb 1 18:52:42 2018 -0500
+
+    Merge pull request #33 from carsongee/feature/drop_3.3
+    
+    Feature/drop 3.3
+
+commit 4038d72b0fa0d077741f91ee8d9bd5f5164dfbeb
+Author: Carson Gee <x@carsongee.com>
+Date:   Thu Feb 1 18:50:00 2018 -0500
+
+    Dropped python 3.3 support
+
+commit 82ac0491c578d5df8034e9d0cc2bf9baf4f34dbe
+Author: Benjamin Drung <bdrung@debian.org>
+Date:   Thu Feb 1 22:45:41 2018 +0100
+
+    Fix inconsistent-return-statements pylint error
+    
+    pylint 1.8.1 complains about pytest_pylint.py:
+    R:116, 0: Either all return statements in a function should return an
+    expression, or none of them should. (inconsistent-return-statements)
+    
+    Bug-Debian: https://bugs.debian.org/887573
+
+commit fb37e040727b16e1c824910c9cd392fcb6db594a
+Merge: 95a4e20 07518ba
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Apr 15 22:18:28 2017 -0400
+
+    Merge pull request #30 from carsongee/release
+    
+    Release
+
+commit 07518ba66fe446337c849b52b460af735fffdb63
+Merge: bca432b 7bebfa4
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Apr 15 22:13:14 2017 -0400
+
+    Merge pull request #29 from carsongee/rc/0.7.1
+    
+    Rc/0.7.1
+
+commit 7bebfa46b3f314aeafd1d013fdef22d4ce82d717
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Apr 15 21:19:51 2017 -0400
+
+    Released 0.7.1
+
+commit 95a4e205f2097d26ce15e102590a433958d6d169
+Merge: 96af3c7 18f3701
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Apr 15 21:16:51 2017 -0400
+
+    Merge pull request #28 from carsongee/feature/fix_rel_path
+    
+    Corrected relative path calculation
+
+commit 18f370176449f7cefedae08c4339161abc6ae05f
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Apr 15 19:44:42 2017 -0400
+
+    Corrected relative path calculation
+
+commit 96af3c7d680de9b67fda8b1795414d41e197d856
+Merge: 19932f2 bca432b
+Author: Carson Gee <x@carsongee.com>
+Date:   Fri Feb 3 20:24:04 2017 -0500
+
+    Merge pull request #25 from carsongee/release
+    
+    Release 0.7.0 to Master
+
+commit bca432b7f5decf3cbf01f71ccde254434bc3b896
+Merge: d23ad00 6fc43ea
+Author: Carson Gee <x@carsongee.com>
+Date:   Fri Feb 3 18:46:05 2017 -0500
+
+    Merge pull request #24 from carsongee/rc/0.7.0
+    
+    Rc/0.7.0
+
+commit 6fc43eadb1c05cdfa4fad4056e885825e9e08156
+Author: Carson Gee <x@carsongee.com>
+Date:   Fri Feb 3 18:30:58 2017 -0500
+
+    Released 0.7.0
+
+commit 19932f287570402aa0efbe345bd372d685c8540a
+Merge: 02f0682 2ab030f
+Author: Carson Gee <x@carsongee.com>
+Date:   Fri Feb 3 18:19:48 2017 -0500
+
+    Merge pull request #23 from heoga/prerun-linter
+    
+    Prerun linter
+
+commit 2ab030f355507a0f81c8b7f94a1679434f56a41c
+Author: Karl Odie <karlodie@gmail.com>
+Date:   Fri Jan 20 19:22:58 2017 +0000
+
+    Skip linting if no files were collected
+
+commit 422e8173d547e91396d006f9abe7fd2d9cc255f7
+Author: Karl Odie <karlodie@gmail.com>
+Date:   Thu Jan 19 20:48:58 2017 +0000
+
+    Move pylint run ahead of tests for performance boost
+
+commit 02f06826c3c69666a3e13ee21532c907f67b5640
+Merge: 3d6a2cb d23ad00
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Jul 23 12:45:50 2016 -0400
+
+    Merge pull request #21 from carsongee/release
+    
+    Release
+
+commit d23ad00deecf9733d227a902f95ac150c7be906e
+Merge: 2fc6457 9d509b6
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Jul 23 10:02:53 2016 -0400
+
+    Merge pull request #20 from carsongee/rc/0.6.0
+    
+    Rc/0.6.0
+
+commit 9d509b6c931e1f6f6c08c4dcfe016382caea904a
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Jul 23 09:57:44 2016 -0400
+
+    Released 0.6.0
+
+commit 3d6a2cbd1509b6e1df907d36c2d6bb4195102b43
+Merge: 420abfe b1ac212
+Author: Carson Gee <x@carsongee.com>
+Date:   Fri Jul 22 16:54:42 2016 -0400
+
+    Merge pull request #19 from sebastianstigler/master
+    
+    Add marker 'pylint' to run pylint checks only
+
+commit b1ac212f62f6358bb003836e631a7bd91596bebc
+Author: Sebastian Stigler <sebastian@sebastian-stigler.de>
+Date:   Fri Jul 22 21:41:27 2016 +0200
+
+    simplify the marker
+
+commit ca0d82b669d3ee9a479424f2e4ca11a4fd773bfa
+Author: Sebastian Stigler <sebastian@sebastian-stigler.de>
+Date:   Fri Jul 22 16:25:56 2016 +0200
+
+    Add marker 'pylint' to run pylint checks only
+    
+    You can run `py.test --pylint -m pylint` to just run the linter and no
+    other tests.
+
+commit 420abfea9ae3f12386b12fdf6ac733433b8ab527
+Merge: 6b706cc 6d2b956
+Author: Carson Gee <x@carsongee.com>
+Date:   Tue Jun 7 19:19:25 2016 -0400
+
+    Merge pull request #17 from onovy/master
+    
+    Bump required version pytest to 2.7
+
+commit 6d2b956c38ff1fc64bf7827df6977b0b05c5d211
+Author: Ondřej Nový <ondrej.novy@firma.seznam.cz>
+Date:   Tue Jun 7 16:47:35 2016 +0200
+
+    Bump required version pytest to 2.7
+    
+    test_pytest_pylint.py is failing on 2.6.4 and older
+
+commit 6b706cc2fa48869a0c22c55e4127cfc4f0a0dd10
+Merge: dc68dca 2fc6457
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Apr 2 10:56:03 2016 -0400
+
+    Merge pull request #16 from carsongee/release
+    
+    Release
+
+commit 2fc6457a116a3c70c55e09bbe9957f2f9bed1e60
+Merge: 9426b89 715234f
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Apr 2 10:53:44 2016 -0400
+
+    Merge pull request #15 from carsongee/rc/0.5.0
+    
+    Rc/0.5.0
+
+commit 715234f7a7a62b6a13b1c6cad32ac6b0b0c02f83
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Apr 2 10:50:25 2016 -0400
+
+    Release 0.5.0
+    - Support for finding pylintrc in pytest.ini folder
+
+commit dc68dca5994e93a783f3fa8514afa245dd111fc9
+Merge: 0a45b9f 166aed6
+Author: Carson Gee <x@carsongee.com>
+Date:   Tue Mar 29 15:22:45 2016 -0400
+
+    Merge pull request #14 from andras-tim/feature/pytest-ini-path
+    
+    Find .pylintrc in directory of pytest.ini too
+
+commit 166aed6a7a81293311402134340c331998773ac6
+Author: Andras Tim <andras.tim@gmail.com>
+Date:   Tue Mar 29 19:39:39 2016 +0200
+
+    Find .pylintrc in directory of pytest.ini too
+
+commit 9426b89e8ce829bfe08d0a2c0f141900625218e1
+Merge: dc1ba06 571ee92
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Dec 13 16:47:18 2015 -0500
+
+    Merge pull request #11 from carsongee/rc/0.4.1
+    
+    Rc/0.4.1
+
+commit 0a45b9f58c233a156a6a289bbd90c2db79bafcad
+Merge: 43e7546 571ee92
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Dec 13 16:46:49 2015 -0500
+
+    Merge branch 'rc/0.4.1'
+
+commit 571ee9255225b241df0310ddffd9ecb7febc25bb
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Dec 13 16:43:23 2015 -0500
+
+    Released 0.4.1
+
+commit 43e75465a796c12aa646a6a241f8b42fa304cfa5
+Merge: d0b87d5 16eda32
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Dec 13 16:41:55 2015 -0500
+
+    Merge pull request #10 from carsongee/feature/debug_deprecated_add_message
+    
+    Removed add_message implementation in pylint reporter
+
+commit 16eda32baf4b16e105a8f805f61a54ae26fdecf3
+Author: Carson Gee <x@carsongee.com>
+Date:   Sun Dec 13 15:09:47 2015 -0500
+
+    Added pylint minimum version to setup
+    Closes #9
+
+commit d0b87d5f2d0569f04e888c2870e3cab46bb8529b
+Merge: 274ece4 0aed7b9
+Author: Carson Gee <x@carsongee.com>
+Date:   Mon Sep 28 10:07:41 2015 -0400
+
+    Merge branch 'rc/0.4.0'
+
+commit dc1ba06d740a6dffb5fc491c389712261cba2662
+Merge: 9b90a13 0aed7b9
+Author: Carson Gee <x@carsongee.com>
+Date:   Mon Sep 28 10:06:53 2015 -0400
+
+    Merge branch 'rc/0.4.0' into release
+
+commit 0aed7b96549df521619de0b37c256c29fabc1d9c
+Author: Carson Gee <x@carsongee.com>
+Date:   Mon Sep 28 10:01:26 2015 -0400
+
+    Set to version 0.4.0
+
+commit 274ece49d67df9a260adb6b6a4cb46a2695fe424
+Merge: 2ffadaa 150b7e7
+Author: Carson Gee <x@carsongee.com>
+Date:   Mon Sep 28 09:58:29 2015 -0400
+
+    Merge pull request #6 from rutsky/pylintrc_msg_template
+    
+    use msg-template from pylintrc config to format error
+
+commit 150b7e7337c2d3b637a042c335bbff52660df65f
+Author: Vladimir Rutsky <vladimir.rutsky@transas.com>
+Date:   Mon Sep 28 16:11:50 2015 +0300
+
+    remove no-init, since __init__ implemented
+
+commit 77840aae3695dff5ff74153cab06c8880b0d3a17
+Author: Vladimir Rutsky <vladimir@rutsky.org>
+Date:   Mon Sep 28 03:45:25 2015 +0300
+
+    use msg-template from pylintrc config to format error
+    
+    Allows to setup custom error string format.
+    
+    Deprecated pylintrc options like "include-ids" and "symbols" are not
+    supported.
+
+commit 2ffadaab4a7d3febe17168ba7886e168bdfea35c
+Merge: 6ae2d11 d088482
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Jun 13 22:21:54 2015 -0400
+
+    Merge pull request #4 from carsongee/rc/0.3.0
+    
+    Version 0.3.0
+
+commit 9b90a1312d4560c52a33f917d748b89e283d6c59
+Merge: e686558 d088482
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Jun 13 22:20:45 2015 -0400
+
+    Merge branch 'rc/0.3.0' into release
+
+commit d0884822649ba3971fa8993d60e29a1f14fb4292
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Jun 13 22:18:14 2015 -0400
+
+    Version 0.3.0
+    - Support pylintrc file ignore lists
+
+commit 6ae2d119100b8b9443c5959b5c969b33ff647a8c
+Merge: 58b3605 442af8b
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Jun 13 21:25:56 2015 -0400
+
+    Merge pull request #3 from carsongee/feature/ignore
+    
+    Support the ignore list from pylintrc
+
+commit 442af8bba6d22ce220f217458e9e2323ba4cb255
+Author: Carson Gee <x@carsongee.com>
+Date:   Sat Jun 13 21:19:58 2015 -0400
+
+    Support the ignore list from pylintrc
+    Closes #2
+
+commit 58b3605ca7e8d9e9036e3b9a293bf16a98e0aade
+Author: Carson Gee <x@carsongee.com>
+Date:   Fri Apr 24 16:26:56 2015 -0400
+
+    Add links to badges
+
+commit 1e10fccce56d3eeb3b605d58b1ce826c42033775
+Merge: 84aaef6 cae9bb9
+Author: Carson Gee <x@carsongee.com>
+Date:   Fri Apr 24 16:22:08 2015 -0400
+
+    Merge branch 'rc/0.2.0'
+
+commit e6865588531fe1cdd0ce826632e2ce071bab666a
+Merge: 8f9800b cae9bb9
+Author: Carson Gee <x@carsongee.com>
+Date:   Fri Apr 24 16:21:28 2015 -0400
+
+    Merge branch 'rc/0.2.0' into release
+
+commit cae9bb969f0a6b938c28ecc90968ddd9f1de6549
+Author: Carson Gee <x@carsongee.com>
+Date:   Fri Apr 24 16:19:12 2015 -0400
+
+    Version 0.2.0
+
+commit 84aaef65fc9dc6a51eb991510d172ffa1a4ceaa0
+Merge: 3ff766b 8a4f08f
+Author: Carson Gee <x@carsongee.com>
+Date:   Fri Apr 24 12:04:56 2015 -0400
+
+    Merge pull request #1 from carsongee/feature/modernize_pylint_reporter
+    
+    Modernize pylint reporter
+
+commit 8a4f08f12ddb7b257c74e7dddc5e6925f07d0016
+Author: Carson Gee <x@carsongee.com>
+Date:   Fri Apr 24 11:34:11 2015 -0400
+
+    Modernize pylint reporter to use newer handle_message method
+
+commit c55073b9d9f7d7617cbb4049f07a4c30ef3c550f
+Author: Carson Gee <x@carsongee.com>
+Date:   Fri Apr 24 11:15:30 2015 -0400
+
+    Add LICENSE to distribution
+
+commit 3ff766b6085eb5cb7d0b613d4e114b82590cc1b6
+Merge: 67c7694 7d706d1
+Author: Carson Gee <x@carsongee.com>
+Date:   Thu Apr 23 21:31:40 2015 -0400
+
+    Merge branch 'rc/0.1.0'
+
+commit 8f9800baff939aa2d860ef85cf2778e5cafb3aa3
+Merge: 52031ee 7d706d1
+Author: Carson Gee <x@carsongee.com>
+Date:   Thu Apr 23 21:31:05 2015 -0400
+
+    Merge branch 'rc/0.1.0' into release
+
+commit 7d706d107828a16afc435a9c94746b7ca30cdd4b
+Author: Carson Gee <x@carsongee.com>
+Date:   Thu Apr 23 21:30:52 2015 -0400
+
+    Bump version for first release
+
+commit 67c769417b0783afad4dbaac27f7daf4db036548
+Author: Carson Gee <x@carsongee.com>
+Date:   Thu Apr 23 21:29:35 2015 -0400
+
+    Improved README and setup
+
+commit 2a4f0cf40b4a13046b761f704efd67e23249c67e
+Author: Carson Gee <x@carsongee.com>
+Date:   Thu Apr 23 21:06:56 2015 -0400
+
+    python 3 compatibility
+
+commit ca1be94009fc687b2611ed9f3350688f6addce3f
+Author: Carson Gee <x@carsongee.com>
+Date:   Thu Apr 23 20:58:10 2015 -0400
+
+    Tox and Travis
+
+commit f7ad6287ea8d28ad187bbc82c0bc00d1a86e7ec6
+Author: Carson Gee <x@carsongee.com>
+Date:   Thu Apr 23 20:11:39 2015 -0400
+
+    Fix pylint issues
+
+commit 56eee9aa6c31a7da86e7cd5989151c5f0064969f
+Author: Carson Gee <x@carsongee.com>
+Date:   Wed Apr 22 09:11:27 2015 -0400
+
+    Adding initial tests for plugin and repalted bug fixes
+
+commit 487518195d6da8adf0d7b55dcdca16837f0ce234
+Author: Carson Gee <x@carsongee.com>
+Date:   Tue Apr 21 09:56:59 2015 -0400
+
+    Initial commit
+
+commit 52031eec7f1599ed047eeee842e6dbf5e30a3e51
+Author: Carson Gee <x@carsongee.com>
+Date:   Tue Apr 21 09:52:54 2015 -0400
+
+    Initial commit

@@ -1,0 +1,191 @@
+pytest-pylint (0.18.0-2) unstable; urgency=medium
+
+  * d/CHANGELOG: Update from new upstream release.
+  * Bump required version of pytest.
+
+ -- Ondřej Nový <onovy@debian.org>  Sun, 17 Jan 2021 16:40:22 +0100
+
+pytest-pylint (0.18.0-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * New upstream release (Closes: #977080).
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+  * d/p/0001-Removed-PEP8-py.test-plugin.patch: Drop, not needed.
+  * Add python3-pytest-flake8 to build and test depends.
+  * Skip pytest_pylint/plugin.py linting.
+  * Bump debhelper compat level to 13.
+  * Bump standards version to 4.5.1.
+
+  [ Debian Janitor ]
+  * Set field Upstream-Contact in debian/copyright.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata (already
+    present in machine-readable debian/copyright).
+
+ -- Ondřej Nový <onovy@debian.org>  Mon, 04 Jan 2021 12:08:56 +0100
+
+pytest-pylint (0.15.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Ondřej Nový <onovy@debian.org>  Fri, 13 Mar 2020 16:16:36 +0100
+
+pytest-pylint (0.15.0-1) unstable; urgency=medium
+
+  * Rebase patches
+  * New upstream release
+  * Bump standards version to 4.5.0 (no changes)
+
+ -- Ondřej Kobližek <kobla@debian.org>  Tue, 18 Feb 2020 09:25:48 +0100
+
+pytest-pylint (0.14.1-3) unstable; urgency=medium
+
+  [ Sebastien Bacher ]
+  * debian/patches/import_warning_fix.patch:
+    - reorder imports to fix pylint import-outside-toplevel warnings
+    (Closes: #946040)
+
+ -- Ondřej Nový <onovy@debian.org>  Mon, 16 Dec 2019 11:54:52 +0100
+
+pytest-pylint (0.14.1-2) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Bump Standards-Version to 4.4.1.
+
+  [ Ondřej Kobližek ]
+  * Change my email address
+  * d/control: Add Rules-Requires-Root
+
+  [ Peter Michael Green ]
+  * Update build-dependency for pylint3->pylint
+    package rename. (Closes: #944827)
+
+ -- Ondřej Kobližek <kobla@debian.org>  Tue, 19 Nov 2019 08:01:18 +0100
+
+pytest-pylint (0.14.1-1) unstable; urgency=medium
+
+  * Rebase patches
+  * Bump watchfile version to 4
+  * d/control: Remove unnecessary version constraints in depends
+  * wrap-and-sort
+  * New upstream release
+
+ -- Ondřej Kobližek <koblizeko@gmail.com>  Thu, 25 Jul 2019 14:30:33 +0200
+
+pytest-pylint (0.14.0-2) unstable; urgency=medium
+
+  * d/control: Drop the Python 2 module
+  * d/rules: Drop the Python 2 module
+  * d/tests: Drop the Python 2 module test
+  * Bump standards version to 4.4.0 (no changes)
+  * Bump debhelper compat level to 12 and use debhelper-compat
+
+ -- Ondřej Kobližek <koblizeko@gmail.com>  Mon, 15 Jul 2019 21:05:19 +0200
+
+pytest-pylint (0.14.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Rebase patches
+  * Bump Standards-Version to 4.3.0 (no changes)
+
+ -- Ondřej Nový <onovy@debian.org>  Tue, 22 Jan 2019 14:52:42 +0100
+
+pytest-pylint (0.13.0-1) unstable; urgency=medium
+
+  * New upstream release (Closes: #915888)
+  * Add python{,3}-pytest-runner into B-D
+
+ -- Ondřej Nový <onovy@debian.org>  Fri, 21 Dec 2018 19:49:27 +0100
+
+pytest-pylint (0.12.3-1) unstable; urgency=medium
+
+  * New upstream release (Closes: #909660)
+  * Convert git repository from git-dpm to gbp layout
+  * Bump standards version to 4.2.1 (no changes)
+
+ -- Ondřej Nový <onovy@debian.org>  Wed, 26 Sep 2018 20:55:14 +0200
+
+pytest-pylint (0.9.0-2) unstable; urgency=medium
+
+  * d/control: Remove ancient X-Python-Version field
+  * d/control: Remove ancient X-Python3-Version field
+  * Disable abstract-method pylint check (Closes: #897552)
+  * Bump Standards-Version to 4.1.4 (no changes needed)
+
+ -- Ondřej Nový <onovy@debian.org>  Thu, 10 May 2018 13:12:34 +0200
+
+pytest-pylint (0.9.0-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Set Vcs-* to salsa.debian.org
+
+  [ Ondřej Kobližek ]
+  * New upstream release
+  * d/control: Add python{3}-mock to Build-Depends
+  * d/tests/control: Add python{3}-mock to Depends
+  * Add d/upstream/metadata file
+
+ -- Ondřej Kobližek <koblizeko@gmail.com>  Tue, 06 Mar 2018 09:01:13 +0100
+
+pytest-pylint (0.8.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * d/compat: Bumped debhelper version to 11
+  * d/control:
+    - Dropped Python 3.3 support
+    - Bumped debhelper version to 11
+
+ -- Ondřej Kobližek <koblizeko@gmail.com>  Wed, 07 Feb 2018 12:47:23 +0100
+
+pytest-pylint (0.7.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Fix inconsistent-return-statements pylint error (Closes: #887573)
+  * Bump Standards-Version to 4.1.3 (no changes needed)
+
+ -- Benjamin Drung <bdrung@debian.org>  Thu, 01 Feb 2018 23:38:58 +0100
+
+pytest-pylint (0.7.1-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Bumped debhelper version to 10
+  * d/tests: Run tests on all supported Python versions
+
+  [ Michael Hudson-Doyle ]
+  * Prevent tests in the debian/$pkg directories from being collected when
+    running the tests. (Closes: #867522)
+
+  [ Ondřej Kobližek ]
+  * New upstream release
+  * Https form of the copyright-format URL
+  * Standards version is 4.0.0 now
+  * Update upstream changelog
+
+ -- Ondřej Kobližek <koblizeko@gmail.com>  Thu, 20 Jul 2017 15:19:38 +0200
+
+pytest-pylint (0.6.0-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Removed version from python-all build dependency
+  * d/{control,copyright}: Use my @debian.org email address
+
+  [ Ondřej Kobližek ]
+  * New upstream release
+  * Added upstream changelog
+
+ -- Ondřej Kobližek <koblizeko@gmail.com>  Tue, 02 Aug 2016 07:56:04 +0200
+
+pytest-pylint (0.5.0-2) unstable; urgency=medium
+
+  * Bumped version of required pytest to 2.7
+
+ -- Ondřej Nový <novy@ondrej.org>  Tue, 07 Jun 2016 17:04:34 +0200
+
+pytest-pylint (0.5.0-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #825522)
+
+ -- Ondřej Kobližek <koblizeko@gmail.com>  Fri, 27 May 2016 15:45:12 +0200

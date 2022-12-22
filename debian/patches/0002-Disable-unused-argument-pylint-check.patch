@@ -1,0 +1,18 @@
+From: =?utf-8?b?T25kxZllaiBLb2JsacW+ZWs=?= <kobla@debian.org>
+Date: Tue, 18 Feb 2020 09:12:40 +0100
+Subject: Disable unused-argument pylint check
+
+---
+ pytest_pylint/plugin.py | 1 +
+ 1 file changed, 1 insertion(+)
+
+--- a/pytest_pylint/plugin.py
++++ b/pytest_pylint/plugin.py
+@@ -383,6 +383,7 @@
+         # Update the cache if the item passed pylint.
+         self.plugin.mtimes[self.parent.rel_path] = self.parent.mtime
+ 
++    # pylint: disable=unused-argument
+     def repr_failure(self, excinfo, style=None):
+         """Handle any test failures by checking that they were ours."""
+         # pylint: disable=arguments-differ

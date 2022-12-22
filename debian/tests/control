@@ -1,0 +1,7 @@
+Depends:
+ python3-all,
+ python3-mock,
+ python3-pytest-flake8,
+ python3-pytest-pylint,
+ python3-setuptools,
+Test-Command: set -e; for py in $(py3versions -i); do echo "[*] testing on $py:"; $py -Wd -m pytest -v -x --ignore debian --ignore pytest_pylint/plugin.py 2>&1; done
